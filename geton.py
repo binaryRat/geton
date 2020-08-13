@@ -62,14 +62,6 @@ def scan():
 	for i in range(0,len(threads)-1):
 		threads[i].join()
 
-	
-	#thread2 = scanThread(arg.url, contents[halfLength:fullLength])
-	#thread1.start()
-	#thread2.start()
-	#thread1.join()
-	#thread2.join()
-
-
 
 if __name__ == '__main__':
 	scan()
